@@ -49,6 +49,16 @@ targ = 1.004662e-08 s → the instant when v(out) crossed 0.9·VDD on that same 
 
 **Add this line -**
 
+<img width="594" height="333" alt="image" src="https://github.com/user-attachments/assets/cc21b8a6-6d40-4ef2-9c6d-f49b0efc4847" />
+
+<img width="458" height="219" alt="image" src="https://github.com/user-attachments/assets/19cddaed-55a0-49ba-a89b-1b62c2fbd6d3" />
+
+<img width="629" height="418" alt="image" src="https://github.com/user-attachments/assets/6d1d071c-6c84-4e1f-9084-530581547f1d" />
+
+
+
+
+
 
 
 
