@@ -43,6 +43,25 @@ targ = 1.004662e-08 s → the instant when v(out) crossed 0.9·VDD on that same 
 
 <img width="736" height="181" alt="image" src="https://github.com/user-attachments/assets/40947c7d-fc31-4f8e-acb6-b4b90738655a" />
 
+## **For Noise margin do DC analysis (File given in repository ) -**
+
+<img width="1366" height="713" alt="image" src="https://github.com/user-attachments/assets/bc731519-efca-427b-9c04-1a81fac229dd" />
+
+**Add this line -**
+
+<img width="519" height="312" alt="image" src="https://github.com/user-attachments/assets/c7fa88c2-c0b8-42d3-b70e-bbe2ec387b88" />
+
+<img width="761" height="190" alt="image" src="https://github.com/user-attachments/assets/cffaea28-2fb7-4713-8e30-0c2bf685a9c6" />
+
+
+
+
+
+
+
+
+
+
 
 
 
