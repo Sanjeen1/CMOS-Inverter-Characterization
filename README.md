@@ -59,6 +59,14 @@ targ = 1.004662e-08 s → the instant when v(out) crossed 0.9·VDD on that same 
 
 <img width="759" height="327" alt="image" src="https://github.com/user-attachments/assets/38178b3e-2840-4708-887a-6c59011777d7" />
 
+## **For pmos width variation -**
+
+<img width="758" height="479" alt="image" src="https://github.com/user-attachments/assets/6790d8c1-98c4-4cc9-a673-457bc778b0c3" />
+
+**dc1.out indicates wp = 10u , dc2.out indicates wp = 20u , dc3.out indicates wp = 30u**
+
+This mens by increasing width of pmos in cmos inverter, the vtc curve will go towards right. 
+
 
 
 
