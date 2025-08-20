@@ -1,0 +1,34 @@
+.include ./tsmc180.txt
+
+m0 out in Gnd 0 nfet l=0.2u w =10u
+m1 out in Vdd vdd pfet l=0.4u w= 10u
+cl out Gnd 1pf
+
+Vdd vdd Gnd 1.8
+Vdin in Gnd pulse(0 1.8 1p 10p 10p 10n 20n)
+
+.control
+foreach c 1f 100f 10p
+alter cl = $c
+
+tran 10n 100n
+
+
+meas tran rise_t TRIG V(out) VAL=0.1*vdd rise=1 TARG V(out) VAL=0.9*vdd rise=1
+meas tran fall_t TRIG V(out) VAL=0.9*vdd fall=1 TARG V(out) VAL=0.1*vdd fall=1
+
+meas tran tphl trig in val=0.5*vdd rise=1 targ v(out) val=0.5*vdd fall=1
+meas tran tplh trig in val=0.5*vdd fall=1 targ v(out) val=0.5*vdd rise=1
+
+let prop_delay = (tphl+tplh)/2
+print prop_delay
+
+let p = 1.8*(-Vdd#branch)
+meas tran energy integ p from=0n to=20n
+let power = energy/20n
+print power
+end
+plot tran1.in tran1.out tran2.out tran3.out title 'waveforms'
+
+.endc
+.end
