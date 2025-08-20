@@ -109,6 +109,12 @@ alter m1 l =$len
 
 **NOTE:- All analysis is done on pmos width variation similarly we can vary n mos size and do the analysis.**
 
+## **Effect of load capacitance on time-**
+
+<img width="1220" height="615" alt="image" src="https://github.com/user-attachments/assets/103eccf8-0ed2-4746-96fe-2612ab4e4c49" />
+
+
+
 
 
 
