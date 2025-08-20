@@ -113,6 +113,19 @@ alter m1 l =$len
 
 <img width="1220" height="615" alt="image" src="https://github.com/user-attachments/assets/103eccf8-0ed2-4746-96fe-2612ab4e4c49" />
 
+## **Effect of load capacitance on noise margin - **
+
+<img width="1126" height="583" alt="image" src="https://github.com/user-attachments/assets/88566015-cf5a-427f-9c22-d157fcfb3abf" />
+
+**Above we can see that Noise margin, VOH, VIL, etc. → unaffected by load capacitance.**
+
+**Delay, rise/fall time, power → strongly affected by load capacitance**
+
+Larger load capaictance → slower output transitions, more delay, more power.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+For any query email on sanjeen598@gmail.com
 
 
 
