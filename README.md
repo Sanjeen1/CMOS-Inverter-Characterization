@@ -59,7 +59,7 @@ targ = 1.004662e-08 s → the instant when v(out) crossed 0.9·VDD on that same 
 
 <img width="759" height="327" alt="image" src="https://github.com/user-attachments/assets/38178b3e-2840-4708-887a-6c59011777d7" />
 
-## Code is in **In folder cmos inverter VTC curve**
+## Code is **In folder cmos inverter VTC curve**
 
 ## **For pmos size variation -**
 
