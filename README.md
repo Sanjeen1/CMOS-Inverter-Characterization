@@ -83,6 +83,31 @@ foreach len 0.2u 0.5u 1u
 
 alter m1 l =$len
 
+## **Effect of supply voltage :- **
+
+![vtc curve according to supply voltage ](https://github.com/user-attachments/assets/7acf97ef-733a-4734-91c1-bee1eb04d26e)
+
+## **Noise margin analysis -**
+
+![11](https://github.com/user-attachments/assets/a395d66f-93df-48e4-badc-451859b304aa)
+
+## **Delay, Rise time and fall time -**
+
+![111](https://github.com/user-attachments/assets/6e8f1303-6d66-4b42-a68b-aed0ce262124)
+
+## **Power and energy -**
+
+![1111](https://github.com/user-attachments/assets/f118b6ef-4880-468f-90b0-f2381c99aed6)
+
+## **Effect on Vm -**
+
+![11111](https://github.com/user-attachments/assets/fcd31349-4368-4c85-b4e3-74b9cd1649b1)
+
+**We can notice that If PMOS width is small or PMOS is weaker. NMOS dominates → inverter pulls down earlier → Vm shifts lower.**
+
+**If PMOS width is increased, PMOS gets stronger. PMOS resists the NMOS pull-down → Vm shifts higher.VTC curve sgift right side**
+
+
 
 
 
