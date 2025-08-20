@@ -105,7 +105,9 @@ alter m1 l =$len
 
 **We can notice that If PMOS width is small or PMOS is weaker. NMOS dominates → inverter pulls down earlier → Vm shifts lower.**
 
-**If PMOS width is increased, PMOS gets stronger. PMOS resists the NMOS pull-down → Vm shifts higher.VTC curve sgift right side**
+**If PMOS width is increased, PMOS gets stronger. PMOS resists the NMOS pull-down → Vm shifts higher. VTC curve sgift right side**
+
+**NOTE:- All analysis is done on pmos width variation similarly we can vary n mos size and do the analysis.**
 
 
 
