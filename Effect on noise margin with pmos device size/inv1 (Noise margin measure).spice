@@ -1,0 +1,27 @@
+.include ./tsmc180.txt
+
+m0 out in Gnd 0 nfet l=0.2u w =10u
+m1 out in Vdd vdd pfet l=0.4u w= 10u
+cl out Gnd 1p
+
+Vdd vdd Gnd 1.8
+Vdin in Gnd pulse(0 1.8 1p 10p 10p 10n 20n)
+
+.control
+foreach width 1u 10u 20u
+
+alter m1 w = $width
+
+tran 10n 100n
+dc Vdin 0 1.8 0.18m
+let d_out = deriv(out)
+meas dc VOH find out when d_out = -1 cross=1
+meas dc VOL find out when d_out = -1 cross=2
+meas dc VIL find in when out=VOH
+meas dc VIH find in when out=VOL
+let NMH = VOH-VIH
+let NML = VIL-VOL
+print VOH VOL NMH NML
+end
+.endc
+.end

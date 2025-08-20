@@ -1,0 +1,13 @@
+For standard cmos inverter, sizing of NMOS and PMOS is taken as length(l) to be equal in both NMOS and PMOS. Width of PMOS should be 2 times than width of NMOS
+
+For example -
+
+For PMOS:-
+l=5u and w= 20u
+
+For NMOS:-
+l=5u and w= 10u
+
+This is the standard sizing of cmos inverter.
+
+All the analysis is done on TSMC 180nm . similarly for sky130 we can include sky130 lib in spice file.

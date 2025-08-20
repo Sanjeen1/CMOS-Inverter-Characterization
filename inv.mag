@@ -1,0 +1,48 @@
+magic
+tech tsmc
+timestamp 1755606850
+<< nwell >>
+rect -13 3 32 36
+<< ntransistor >>
+rect 5 -18 8 -9
+<< ptransistor >>
+rect 5 11 8 19
+<< ndiffusion >>
+rect -5 -10 5 -9
+rect -5 -18 -4 -10
+rect 4 -18 5 -10
+rect 8 -10 23 -9
+rect 8 -18 16 -10
+<< pdiffusion >>
+rect 3 11 5 19
+rect 8 11 16 19
+<< ndcontact >>
+rect -4 -18 4 -10
+rect 16 -18 24 -10
+<< pdcontact >>
+rect -5 11 3 19
+rect 16 11 24 19
+<< psubstratepcontact >>
+rect -4 -32 6 -24
+<< nsubstratencontact >>
+rect -5 26 3 34
+<< polysilicon >>
+rect 5 19 8 23
+rect 5 2 8 11
+rect 5 -9 8 -6
+rect 5 -22 8 -18
+<< polycontact >>
+rect 3 -6 11 2
+<< metal1 >>
+rect 3 26 29 30
+rect -5 19 -1 26
+rect -8 -5 3 -1
+rect 17 -10 22 11
+rect -4 -24 0 -18
+rect 6 -32 29 -28
+<< labels >>
+rlabel metal1 17 28 17 28 1 vdd
+rlabel metal1 -3 -3 -3 -3 1 in
+rlabel metal1 19 -2 19 -2 1 out
+rlabel metal1 11 -31 11 -31 1 Gnd
+<< end >>

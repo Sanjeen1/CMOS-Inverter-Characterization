@@ -1,0 +1,40 @@
+* SPICE3 file created from (UNNAMED).ext - technology: tsmc
+
+.include ./tsmc180.txt
+.option scale=0.06u
+
+
+Vdd vdd Gnd 1.8
+Vdin in Gnd pulse(0 1.8 100p 50p 50p 200n 500n)
+
+
+
+
+
+M1000 out in Gnd Gnd nfet w=9 l=3
++  ad=143 pd=50 as=90 ps=38
+M1001 out in vdd vdd pfet w=8 l=3
++  ad=128 pd=48 as=80 ps=36
+
+.dc vdin 0 1.8 0.1m
+.control
+run
+
+plot out  in
+
+
+set color0=white
+set color1=black
+set color2=red
+set color3=blue
+set xbrushwidth=3
+
+
+.endc
+
+    
+                 
+
+                 
+.end
+

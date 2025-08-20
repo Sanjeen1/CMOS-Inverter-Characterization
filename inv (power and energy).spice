@@ -1,0 +1,39 @@
+* SPICE3 file created from (UNNAMED).ext - technology: tsmc
+
+.include ./tsmc180.txt
+.option scale=0.06u
+
+
+Vdd vdd Gnd 1.8
+Vdin in Gnd pulse(0 1.8 1p 10p 10p 10n 20n)
+
+
+
+
+
+M1000 out in Gnd Gnd nfet w=9 l=3
++  ad=143 pd=50 as=90 ps=38
+M1001 out in vdd vdd pfet w=8 l=3
++  ad=128 pd=48 as=80 ps=36
+
+.control
+run
+
+
+set color0=white
+set color1=black
+set color2=red
+set color3=blue
+set xbrushwidth=3
+
+tran 10n 100n 
+let p = 1.8*(-Vdd#branch)
+meas tran energy integ p from=0n to=20n
+let power = energy/20n
+print power
+
+
+.endc
+                 
+.end
+
