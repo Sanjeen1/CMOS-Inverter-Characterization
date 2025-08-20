@@ -67,7 +67,7 @@ targ = 1.004662e-08 s → the instant when v(out) crossed 0.9·VDD on that same 
 
 This means by increasing width of pmos in cmos inverter, the vtc curve will go towards right. 
 
-**For Nmos size variation -**
+## **For Nmos size variation -**
 
 <img width="751" height="476" alt="image" src="https://github.com/user-attachments/assets/9bf16759-0d4d-45fd-9eab-6d36d4be2e34" />
 
