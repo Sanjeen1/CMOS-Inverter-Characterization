@@ -73,7 +73,14 @@ This means by increasing width of pmos in cmos inverter, the vtc curve will go t
 
 This means by increasing width of nmos in cmos inverter, the vtc curve will go towards left as above. 
 
-Red = 10u, blue = 20u , green = 30u
+**Red = 10u, blue = 20u , green = 30u**
+
+**For length variation -**
+
+foreach len 0.2u 0.5u 1u 
+
+alter m1 l =$len
+
 
 
 
